@@ -4,7 +4,8 @@
 # Enable the Dashboard
 [api]
   dashboard = true
-
+  debug = true
+  
 # Write out Traefik logs
 [log]
   level = "INFO"
