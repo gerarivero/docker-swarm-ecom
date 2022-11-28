@@ -2,6 +2,8 @@ version: "3.7"
 services:
   smokeping:
     image: linuxserver/smokeping
+    ports:
+      - 8088:80
     environment:
       - TZ=America/Argentina/Buenos_Aires
     volumes:
