@@ -4,12 +4,14 @@
 # Enable the Dashboard
 [api]
   dashboard = true
-  debug = true
-  
+
 # Write out Traefik logs
 [log]
-  level = "INFO"
+  level = "DEBUG"
   filePath = "/traefik.log"
+
+[accessLog]
+  filePath = "/access.log"
 
 [entryPoints.http]
   address = ":80"
