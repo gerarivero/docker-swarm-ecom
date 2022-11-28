@@ -13,17 +13,17 @@ services:
 #        window: 15s
     restart: unless-stopped
     environment:
-      PUBLICHOST: 10.1.74.37
+      PUBLICHOST: smokeping.ecom.com.ar
       FTP_USER_NAME: "cabeza"
       FTP_USER_PASS: "foobarqux1@"
       FTP_USER_HOME: "/config"
-      FTP_USER_UID: 1007
-      FTP_USER_GID: 1007
+      #FTP_USER_UID: 1007
+      #FTP_USER_GID: 1007
     volumes:
       - ./config:/config
       #- ./data/ftp:/etc/ssl/private
     ports:
-      - target: 21
+      - target: 22
         published: 21
         protocol: tcp
         mode: host

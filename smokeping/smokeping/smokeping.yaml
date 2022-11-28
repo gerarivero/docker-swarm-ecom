@@ -1,0 +1,25 @@
+version: "2.1"
+services:
+  smokeping:
+    image: linuxserver/smokeping
+    environment:
+      - TZ=America/Argentina/Buenos_Aires
+    volumes:
+      - ./config:/config
+      - ./data:/data
+    networks:
+      - traefik_public
+    deploy:
+      labels:
+        # traefik
+        - traefik.enable=true
+        - traefik.docker.network=traefik_public  
+
+        # traefikv2
+        - "traefik.http.routers.smokeping.rule=Host(`smokeping.ecom.com.ar`)"
+        - "traefik.http.routers.smokeping.entrypoints=https"
+        - "traefik.http.services.smokeping.loadbalancer.server.port=80"
+
+networks:
+  traefik_public:
+    external: true
