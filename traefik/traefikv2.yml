@@ -22,9 +22,9 @@ services:
         protocol: tcp
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - /var/data/traefik/config:/etc/traefik
-      - /var/data/traefik/log/traefik.log:/traefik.log
-      - /var/data/traefik/certificates/acme.json:/acme.json
+      - /var/data/docker-swarm-ecom/traefik/config:/etc/traefik
+      - /var/data/docker-swarm-ecom/traefik/log/traefik.log:/traefik.log
+      - /var/data/docker-swarm-ecom/traefik/certificates/acme.json:/acme.json
     networks:
       - traefik_public
     # Global mode makes an instance of traefik listen on _every_ node, so that regardless of which
