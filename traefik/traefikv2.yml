@@ -33,6 +33,7 @@ services:
     deploy:
       mode: global
       labels:
+        - traefik.enable=true
         - "traefik.docker.network=traefik_public"
         - "traefik.http.routers.api.rule=Host(`traefik.nc.ecom.com.ar`)"
         - "traefik.http.routers.api.entrypoints=https"
