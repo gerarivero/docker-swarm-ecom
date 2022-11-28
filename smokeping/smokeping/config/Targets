@@ -1,0 +1,362 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of WORKS Company. \
+         Here you will learn all about the latency of our network.
+
++ ECOM
+
+menu = ECOM 
+title = ECOM
+
+++ Nodos
+menu = NODOS
+title = NODOS 
+
++++ RSPENA
+menu = R.S.PENA
+title = R.S.PEÑA
+host = 10.20.0.9
+
++++ TACO_POZO
+menu = TACO POZO
+title = TACO POZO
+host = 10.29.0.9
+
++++ RIO_MUERTO
+menu = RIO MUERTO
+title = RIO MUERTO
+host = 10.95.0.9
+
++++ LOS_FRENTONES
+menu = LOS FRENTONES
+title = LOS FRENTONES
+host = 10.72.0.9
+
++++ PAMPA_DEL_INFIERNO
+menu = PAMPA DEL INFIERNO
+title = PAMPA DEL INFIERNO
+host = 10.80.0.9
+
++++ MIRAFLORES
+menu = MIRAFLORES
+title = MIRAFLORES
+host = 10.75.0.9
+
++++ CONC_DEL_BERMEJO
+menu = CONC DEL BERMEJO
+title = CONC DEL BERMEJO
+host = 10.48.0.9
+
++++ CAMPO_LARGO
+menu = CAMPO LARGO
+title = CAMPO LARGO
+host = 10.39.0.9
+
++++ CHARATA
+menu = CHARATA
+title = CHARATA
+host = 10.26.0.9
+
++++ CASTELLI
+menu = CASTELLI
+title = CASTELLI
+host = 10.32.0.9
+
++++ TRES_ISLETAS
+menu = TRES ISLETAS
+title = TRES ISLETAS
+host = 10.34.0.9
+
++++ NAPENAY
+menu = NAPENAY
+title = NAPENAY
+host = 10.77.0.9
+
++++ AVIA_TERAI
+menu = AVIA TERAI
+title = AVIA TERAI
+host = 10.37.0.9
+
++++ CORZUELA
+menu = CORZUELA
+title = CORZUELA
+host = 10.50.0.9
+
++++ LAS_BRENAS
+menu = LAS BRENAS
+title = LAS BRENAS
+host = 10.36.0.9
+
++++ PINEDO 
+menu = PINEDO 
+title = PINEDO 
+host = 10.35.0.9
+
++++ V_RIO_BERMEJITO
+menu = V RIO BERMEJITO
+title = V RIO BERMEJITO
+host = 10.92.0.9
+
++++ QUITILIPI
+menu = QUITILIPI
+title = QUITILIPI
+host = 10.28.0.9
+
++++ GANCEDO
+menu = GANCEDO
+title = GANCEDO
+host = 10.56.0.9
+
++++ PAMPA_DEL_INDIO
+menu = PAMPA DEL INDIO
+title = PAMPA DEL INDIO
+host = 10.79.0.9
+
++++ MACHAGAY
+menu = MACHAGAY
+title = MACHAGAY
+host = 10.31.0.9
+
++++ P_PLAZA
+menu = P PLAZA
+title = P PLAZA
+host = 10.33.0.9
+
++++ HERMOSO_CAMPO
+menu = HERMOSO CAMPO
+title = HERMOSO CAMPO
+host = 10.89.0.9
+
++++ S_SYLVINA
+menu = S SYLVINA
+title = S SYLVINA
+host = 10.59.0.9
+
++++ ROCA
+menu = ROCA
+title = ROCA
+host = 10.81.0.9
+
++++ SAN_MARTIN
+menu = SAN MARTIN
+title = SAN MARTIN
+host = 10.27.0.9
+
++++ COLONIAS_UNIDAS
+menu = COLONIAS UNIDAS
+title = COLONIAS UNIDAS
+host = 10.47.0.9
+
++++ COLONIA_ELISA
+menu = COLONIA ELISA
+title = COLONIA ELISA
+host = 10.45.0.9
+
++++ LA_ESCONDIDA
+menu = LA ESCONDIDA
+title = LA ESCONDIDA
+host = 10.63.0.9
+
++++ LA_VERDE
+menu = LA VERDE
+title = LA VERDE
+host = 10.66.0.9
+
++++ MAKALLE
+menu = MAKALLE
+title = MAKALLE
+host = 10.73.0.9
+
++++ C_DU_GRATY
+menu = C DU GRATY
+title = C DU GRATY
+host = 10.49.0.9
+
++++ VILLA_ANGELA
+menu = VILLA ANGELA
+title = VILLA ANGELA
+host = 10.25.0.9
+
++++ LA_EDUVIGIS
+menu = LA EDUVIGIS
+title = LA EDUVIGIS
+host = 10.62.0.9
+
++++ P_EVA_PERON
+menu = P EVA PERON
+title = P EVA PERON
+host = 10.83.0.9
+
++++ LAS_PALMAS
+menu = LAS PALMAS
+title = LAS PALMAS
+host = 10.71.0.9
+
++++ MARGARITA_BELEN
+menu = MARGARITA BELEN
+title = MARGARITA BELEN
+host = 10.74.0.9
+
++++ RESISTENCIA
+menu = RESISTENCIA
+title = RESISTENCIA
+host = 10.11.0.9
+
++++ PUERTO_TIROL
+menu = PUERTO TIROL
+title = PUERTO TIROL
+host = 10.84.0.9
+
++++ COTELAI
+menu = COTELAI
+title = COTELAI
+host = 10.51.0.9
+
++++ CHARADAI
+menu = CHARADAI
+title = CHARADAI
+host = 10.41.0.9
+
++++ SAMUHU
+menu = SAMUHU
+title = SAMUHU
+host = 10.87.0.9
+
++++ SAN_BERNARDO
+menu = SAN BERNARDO
+title = SAN BERNARDO
+host = 10.88.0.9
+
++++ VILLA_BERTHET
+menu = VILLA BERTHET
+title = VILLA BERTHET
+host = 10.91.0.9
+
++++ FONTANA 
+menu = FONTANA 
+title = FONTANA 
+host = 10.166.0.9
+
+++ Clientes
+menu = Clientes
+title = Cliente
+
++++ OvidioS
+menu = CPE Ovidio Sergio
+title = CPE Ovidio Sergio
+host = 10.62.42.2
+
++++ NbchFEsperanza
+menu = NBCH Fuerte Esperanza
+title = NBCH Fuerte Esperanza
+host = 10.55.29.2
+
++++ Quitilipi_CableColor_SRL
+menu = CP7446 Quitilipi Cable Color SRL
+title = CP7446 Quitilipi Cable Color SRL
+host = 10.28.2.82
+
+++ Hosts
+menu = Hosts
+title = Hosts
+host = 10.11.0.10
+
+++ ECOM 
+menu = ECOM
+title = ECOM
+
++++ RES
+menu = 1072 RES
+title = 1072 RES
+host = 192.168.27.20
+
++++ SM
+menu = 1072 SM
+title = 1072 SM
+host = 192.168.27.21
+
++++ Kolvas_NODO
+menu = Kolvas Nodo
+title = Kolvas Nodo
+host = 10.98.9.1
+
++++ Fuerte_Esperanza_Nodo
+menu = F. Esperanza Nodo
+title = 10.55.9.1
+host = 10.55.9.1
+
++++ Nueva_Pompeya_Nodo
+menu = Nueva Pompeya
+title = 10.76.9.1
+host = 10.76.9.1
+
++ EVERON
+
+menu = EVERON
+title = EVERON
+
+++ EXTERNOS
+menu = EXTERNOS
+title = EXTERNOS
+
++++ ZZZ_DROOTSERVERSNET 
+menu = ZZZ_DROOTSERVERSNET
+host = 199.7.91.13
+
++++ ZZZ_JROOTSERVERSNET
+menu = ZZZ_JROOTSERVERSNET
+host = 192.58.128.30
+
++++ ZZZ_EXTERNA_815_VPS1
+menu = ZZZ_EXTERNA_815_VPS1
+host = 45.55.91.134
+
++ INTERNET
+
+menu = INTERNET
+title = INTERNET
+
+++ DNS
+menu = DNS
+title = DNS
+
++++ GOOGLE
+menu = DNS GOOGLE
+title = GOOGLE
+host = 8.8.8.8
+
++++ CLOUDFLARE
+menu = DNS CLOUDFLARE
+title = CLOUDFLARE
+host = 1.1.1.1
+
++++ OPENDNS
+menu = OPENDNS
+title = OPENDS
+host = 208.67.222.123
+
+++ REDESSOCIALES
+menu = REDESSOCIALES
+title = REDESSOCIALES
++++ FACEBOOK
+menu = FACEBOOK
+host = facebook.com
+
++++ TWITTER
+menu = TWITTER
+host = twitter.com
+
++++ INSTAGRAM
+menu = INSTAGRAM
+host = instagram.com
+
++++ WHATSAPP
+menu = WHATSAPP
+host = whatsapp.com
+
+
+

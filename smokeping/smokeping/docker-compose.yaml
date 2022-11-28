@@ -1,0 +1,16 @@
+version: "2.1"
+services:
+  smokeping:
+    image: linuxserver/smokeping
+    container_name: smokeping
+    hostname: smokeping
+    environment:
+      - PUID=1007
+      - PGID=1007
+      - TZ=America/Argentina/Buenos_Aires
+    volumes:
+      - ./config:/config
+      - ./data:/data
+    ports:
+      - 80:80
+    restart: unless-stopped
