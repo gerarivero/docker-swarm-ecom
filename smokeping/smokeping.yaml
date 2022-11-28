@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   smokeping:
-    image: linuxserver/smokeping
+    image: magicdude4eva/smokeping
     ports:
       - 8088:80
     environment:
