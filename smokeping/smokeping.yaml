@@ -17,7 +17,7 @@ services:
 
         # traefikv2
         - "traefik.http.routers.smokeping.rule=Host(`smokeping.ecom.com.ar`)"
-        - "traefik.http.routers.smokeping.entrypoints=https"
+        - "traefik.http.routers.smokeping.entrypoints=http"
         - "traefik.http.services.smokeping.loadbalancer.server.port=80"
 
 networks:
